@@ -1,0 +1,11 @@
+{
+  "testFiles": "**/*.{feature,features}",
+  "ignoreTestFiles": "*.ts",
+  "env":
+  {
+      "baseUrl": "https://gvv9dp5nt676r.a9ni7d1ff3m0e.ap-southeast-1.cs.amazonlightsail.com/",
+      "api": "https://17hknkdvbbtb4.a9ni7d1ff3m0e.ap-southeast-1.cs.amazonlightsail.com"
+  }
+  
+       
+}
