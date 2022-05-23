@@ -11,7 +11,7 @@ beforeEach(() => {
 
 after(() => {
     cy.logoutFromAccount()
-})
+});
 
 
 // User sees the Sidenav Categories
@@ -291,4 +291,7 @@ Then('User would see "Visual Studio Code for the Web" shared link', () => {
     cy.contains('Visual Studio Code for the Web').scrollIntoView()
         .should('exist')
 });
+
+
+
 
