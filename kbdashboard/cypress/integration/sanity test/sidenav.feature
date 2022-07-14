@@ -33,7 +33,7 @@ Feature: Sidenav
 
       Scenario: User selects Engineering category
             When User selects Engineering category in Sidenav
-            Then User would see "Activation Functions in Neural Networks" shared link
+            Then User would see "The Ultimate Guide to Onboarding Software Engineers - Leadership Garden" shared link
 
       Scenario: User selects Finance category
             When User selects Finance category in Sidenav
@@ -57,7 +57,7 @@ Feature: Sidenav
 
       Scenario: User selects Management category
             When User selects Management category in Sidenav
-            Then User would see "Managers should ask for feedback" shared link
+            Then User would see "Coaching Real Leaders" shared link
 
       Scenario: User selects Marketing category
             When User selects Marketing category in Sidenav
@@ -97,9 +97,9 @@ Feature: Sidenav
 
       Scenario: User selects Strategy category
             When User selects Strategy category in Sidenav
-            Then User would see "A Taxonomy of Moats" shared link
+            Then User would see "How to Present a Strategy in 6 Slides" shared link
 
       Scenario: User selects Tools & Software category
             When User selects Tools & Software category in Sidenav
-            Then User would see "Visual Studio Code for the Web" shared link
+            Then User would see "scrapingfish.com" shared link
 
